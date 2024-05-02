@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+
+.top {
+ 
+  color: #FB4264;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #F40A35;
+  filter: blur(3px) contrast(5);
+}
+
+.bottom {
+ 
+  color: #426DFB;
+  font-size: 4vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356FF;
+  filter: blur(3px) contrast(5);
+}
+
+.top {
+  animation: glow1 5s ease infinite;
+  -moz-animation: glow1 5s ease infinite;
+  -webkit-animation: glow1 5s ease infinite;
+}
+
+@keyframes glow1 {
+  0%,
+  100% {
+     text-shadow: 0 0 .5vw #7e0fff, 0 0 1.5vw #7e0fff, 0 0 5vw #7e0fff, 0 0 5vw #7e0fff, 0 0 .2vw #7e0fff, .5vw .5vw .1vw #2A0040;
+    color: #A900FF;
+  }
+  50% {
+    text-shadow: 0 0 1vw #0fffc1, 0 0 3vw #0fffc1, 0 0 10vw #0fffc1, 0 0 10vw #0fffc1, 0 0 .4vw #0fffc1, .5vw .5vw .1vw #043828;
+    color: #0fffc1;
+  }
+}
+
+.bottom {
+  animation: glow2 5s linear infinite;
+  -moz-animation: glow2 5s linear infinite;
+  -webkit-animation: glow2 5s linear infinite;
+  -o-animation: glow2 5s linear infinite;
+}
+
+@keyframes glow2 {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #0fffc1, 0 0 3vw #0fffc1, 0 0 10vw #0fffc1, 0 0 10vw #0fffc1, 0 0 .4vw #0fffc1, .5vw .5vw .1vw #043828;
+    color: #0fffc1;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #7e0fff, 0 0 1.5vw #7e0fff, 0 0 5vw #7e0fff, 0 0 5vw #7e0fff, 0 0 .2vw #7e0fff, .5vw .5vw .1vw #2A0040;
+    color: #A900FF;
+  }
+}
