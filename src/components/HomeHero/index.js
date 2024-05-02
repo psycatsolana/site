@@ -22,9 +22,9 @@ export const HomeHero = () => {
 
     <div className="z-10 max-w-5xl w-full items-center justify-between text-md lg:flex">
       <div className="flex mx-auto">
-        <nav className="flex flex-row font-sans mx-auto text-center items-center">
+        <nav className="flex flex-row font-mono mx-auto text-center items-center">
           <ul
-            className="list-none flex flex-row space-x-6 text-maincolor"
+            className="list-none flex flex-row space-x-6 text-white"
             data-aos="zoom-down"
             data-aos-delay="150"
             data-aos-duration="1000"
@@ -49,7 +49,7 @@ export const HomeHero = () => {
             </li>
             <li className="py-2">
               <a
-                href="https://pump.fun/"
+                href="https://pump.fun/FiViw16cVvFFesBGVR6UjtfC8z9thHiYo5UrVaNvCD7z"
                 target="_blank"
                 className="text-maincolor "
               >
@@ -75,7 +75,7 @@ export const HomeHero = () => {
 
  
       <a
-        href="https://pump.fun"
+        href="https://pump.fun/FiViw16cVvFFesBGVR6UjtfC8z9thHiYo5UrVaNvCD7z"
         className="font-mono text-xl rounded-lg mt-2 px-8 py-4 border bg-black border-white text-white "
         data-aos="zoom-in"
         data-aos-delay="1200"

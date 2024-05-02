@@ -5,7 +5,8 @@ import { AosInit } from "@/components/AosInit";
 export const metadata = {
   title: "Psycat - Just a raver cat",
   description: "Trade now on Pump.fun",
-};
+}; 
+
 
 export default function RootLayout({ children }) {
   return (
