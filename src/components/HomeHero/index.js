@@ -49,7 +49,7 @@ export const HomeHero = () => {
             </li>
             <li className="py-2">
               <a
-                href="https://pump.fun/FiViw16cVvFFesBGVR6UjtfC8z9thHiYo5UrVaNvCD7z"
+                href="https://pump.fun/"
                 target="_blank"
                 className="text-maincolor "
               >
@@ -75,7 +75,7 @@ export const HomeHero = () => {
 
  
       <a
-        href="https://pump.fun/FiViw16cVvFFesBGVR6UjtfC8z9thHiYo5UrVaNvCD7z"
+        href="https://pump.fun/"
         className="font-mono text-xl rounded-lg mt-2 px-8 py-4 border bg-black border-white text-white "
         data-aos="zoom-in"
         data-aos-delay="1200"
