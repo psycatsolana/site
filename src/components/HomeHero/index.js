@@ -14,7 +14,7 @@ export const HomeHero = () => {
             className="w-full object-cover h-full"
           >
             <source src="/v1.mp4" type="video/mp4" />
-            Seu navegador não oferece suporte a vídeo.
+            Your browser does not support the video tag.
           </video>
         </div>
 
@@ -31,7 +31,7 @@ export const HomeHero = () => {
           >
             <li className="py-2">
               <a
-                href="https://t.me/PsycatSolana"
+                href=""
                 target="_blank"
                 className="text-maincolor"
               >
@@ -49,7 +49,7 @@ export const HomeHero = () => {
             </li>
             <li className="py-2">
               <a
-                href="https://pump.fun/CkB2WKeQ3PCL55gp1ke3r5rTtyFEiEUEwAfUBk3eScHH"
+                href="https://pump.fun/"
                 target="_blank"
                 className="text-maincolor "
               >
@@ -75,7 +75,7 @@ export const HomeHero = () => {
 
  
       <a
-        href="https://pump.fun/CkB2WKeQ3PCL55gp1ke3r5rTtyFEiEUEwAfUBk3eScHH"
+        href="https://pump.fun/"
         className="font-mono text-xl rounded-lg mt-2 px-8 py-4 border bg-black border-white text-white "
         data-aos="zoom-in"
         data-aos-delay="1200"

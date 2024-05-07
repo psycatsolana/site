@@ -1,11 +1,11 @@
 import { FaTelegramPlane } from "react-icons/fa";
 
-const { RiTwitterXLine, RiTelegramLine } = require("react-icons/ri");
+const { RiTwitterXLine } = require("react-icons/ri");
 
 const navigation = [
     {
       name: 'Telegram',
-      href: 'https://www.t.me/PsycatSolana',
+      href: '',
       icon: (props) => (
         <FaTelegramPlane className="text-black h-6 w-6" />
       ),
